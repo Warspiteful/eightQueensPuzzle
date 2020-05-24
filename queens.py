@@ -4,7 +4,6 @@ class queens:
         self.x, self.y = coords
 
     
-
     def canPlace(self,QueensList):
         for coords in QueensList:
             

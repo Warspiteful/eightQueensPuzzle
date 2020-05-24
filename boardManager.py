@@ -13,8 +13,9 @@ class boardManager:
     def removeActive(self):
         self.activeList.pop()
 
-    def saveSolution(self,sol):
-        self.solutions.append(sol)
+    def saveSolution(self):
+        tmp = self.activeList.copy()
+        self.solutions.append(tmp)
 
     def getSolutions(self):
         return self.solutions
