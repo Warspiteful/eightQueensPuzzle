@@ -5,9 +5,9 @@ class queens:
 
     
     def canPlace(self,QueensList):
+        
         for coords in QueensList:
-            
-            if (self.x == coords[0] or self.y == coords[1] or abs( coords[0]- self.x) == abs( coords[1]- self.y)):
+            if (self.x == coords[0] or self.y == coords[1] or abs(coords[0] - self.x) == abs(coords[1] - self.y)):
                 return False
         return True
             
