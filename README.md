@@ -21,6 +21,6 @@ The problem was tackled in Python, my most comfortable language. I approached th
 
 `Puzzle` - Contains Solving Loop, File to Run
 
-##Results
+## Results
 Takes around 2 hours to finish processing all 92 solutions
 Upon reflection, this problem taught me a lot about object-oriented programming and the reason why it has become so important
